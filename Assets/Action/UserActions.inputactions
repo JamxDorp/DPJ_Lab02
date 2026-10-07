@@ -1,13 +1,13 @@
 {
     "version": 1,
-    "name": "UserInputs",
+    "name": "UserActions",
     "maps": [
         {
             "name": "Movement",
             "id": "8fc39f9c-c84f-4848-8d2e-e8adf28cc20d",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Move",
                     "type": "Value",
                     "id": "f3bc6f33-34fa-4b05-b64c-9de43dec97e7",
                     "expectedControlType": "Vector2",
@@ -24,7 +24,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -35,7 +35,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -46,7 +46,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -57,7 +57,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -68,7 +68,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
