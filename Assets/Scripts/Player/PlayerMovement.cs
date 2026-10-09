@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -30,9 +31,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void ReadMovement()
     {
-        moveDirection = actions.Movement.Move.ReadValue<Vector2>();
+        moveDirection = actions.Movement.Move.ReadValue<Vector2>();;
+        animator.SetBool("Moving", false);
+
+        if (moveDirection == Vector2.zero)
+            return;
+
+        Debug.Log($"Move Direction: {moveDirection.x}, {moveDirection.y}");
         animator.SetFloat("MoveX", moveDirection.x);
         animator.SetFloat("MoveY", moveDirection.y);
+        animator.SetBool("Moving", true);
+
     }
 
     private void Move()

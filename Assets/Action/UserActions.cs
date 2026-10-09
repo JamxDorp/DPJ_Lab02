@@ -104,7 +104,7 @@ public partial class @UserActions: IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""2D Vector"",
+                    ""name"": ""Direction"",
                     ""id"": ""37d8e505-fe93-4fcc-af53-2d33bc83c895"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
